@@ -40,28 +40,6 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                     </ul>
                 </li>
-                    <li class="chapter additional">
-                        <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ? 'data-target="#additional-pages"'
-                            : 'data-target="#xs-additional-pages"' }>
-                            <span class="icon ion-ios-book"></span>
-                            <span>Upgrade Information</span>
-                            <span class="icon ion-ios-arrow-down"></span>
-                        </div>
-                        <ul class="links collapse " ${ isNormalMode ? 'id="additional-pages"' : 'id="xs-additional-pages"' }>
-                                    <li class="link ">
-                                        <a href="additional-documentation/upgrading-the-digital-commerce-template-from-september-&#x27;22-to-june-&#x27;23.html" data-type="entity-link" data-context-id="additional">Upgrading the Digital Commerce Template from September &#x27;22 to June &#x27;23</a>
-                                    </li>
-                                    <li class="link ">
-                                        <a href="additional-documentation/upgrading-the-partner-commerce-template-from-september-&#x27;22-to-june-&#x27;23.html" data-type="entity-link" data-context-id="additional">Upgrading the Partner Commerce Template from September &#x27;22 to June &#x27;23</a>
-                                    </li>
-                                    <li class="link ">
-                                        <a href="additional-documentation/upgrading-the-digital-commerce-template-from-february-&#x27;23-to-june-&#x27;23.html" data-type="entity-link" data-context-id="additional">Upgrading the Digital Commerce Template from February &#x27;23 to June &#x27;23</a>
-                                    </li>
-                                    <li class="link ">
-                                        <a href="additional-documentation/upgrading-the-partner-commerce-template-from-february-&#x27;23-to-june-&#x27;23.html" data-type="entity-link" data-context-id="additional">Upgrading the Partner Commerce Template from February &#x27;23 to June &#x27;23</a>
-                                    </li>
-                        </ul>
-                    </li>
                     <li class="chapter">
                         <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ? 'data-target="#components-links"' :
                             'data-target="#xs-components-links"' }>
